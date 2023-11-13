@@ -4175,18 +4175,17 @@ p.nominalBounds = new cjs.Rectangle(-29,-28.2,571.9,553.5);
 		
 		
 		
-		this.fisico.addEventListener("click", fl_ClickToGoToWebPage_5);
-		
-		function fl_ClickToGoToWebPage_5() {
-			window.open("./principal recreacion.html", "_self");
-		}
-		
-		
-		
 		this.rosado.addEventListener("click", fl_ClickToGoToWebPage_6);
 		
 		function fl_ClickToGoToWebPage_6() {
 			window.open("./Principal_Fisico.html", "_self");
+		}
+		
+		
+		this.fisico.addEventListener("click", fl_ClickToGoToWebPage_7);
+		
+		function fl_ClickToGoToWebPage_7() {
+			window.open("./Principal recreacion.html", "_self");
 		}
 	}
 
@@ -4251,7 +4250,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Path.png?1699918494025", id:"Path"}
+		{src:"images/Path.png?1699918917279", id:"Path"}
 	],
 	preloads: []
 };
