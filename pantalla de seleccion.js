@@ -4178,7 +4178,7 @@ p.nominalBounds = new cjs.Rectangle(-29,-28.2,571.9,553.5);
 		this.fisico.addEventListener("click", fl_ClickToGoToWebPage_5);
 		
 		function fl_ClickToGoToWebPage_5() {
-			window.open("principal recreacion.html", "_self");
+			window.open("./principal recreacion.html", "_self");
 		}
 		
 		
@@ -4251,7 +4251,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Path.png?1699916724386", id:"Path"}
+		{src:"images/Path.png?1699918494025", id:"Path"}
 	],
 	preloads: []
 };
