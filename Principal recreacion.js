@@ -2228,19 +2228,19 @@ p.nominalBounds = new cjs.Rectangle(-106.2,-97.5,212.6,195.1);
 		this.fondo1.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("Pantalla 1 recreacion.html", "_self");
+			window.open("./Pantalla 1 recreacion.html", "_self");
 		}
 		
 		this.fondo2.addEventListener("click", fl_ClickToGoToWebPage_2);
 		
 		function fl_ClickToGoToWebPage_2() {
-			window.open("Pantalla 2 recreacion.html", "_self");
+			window.open("./Pantalla 2 recreacion.html", "_self");
 		}
 		
 		this.fondo3.addEventListener("click", fl_ClickToGoToWebPage_3);
 		
 		function fl_ClickToGoToWebPage_3() {
-			window.open("Pantalla 3 recreacion.html", "_self");
+			window.open("./Pantalla 3 recreacion.html", "_self");
 		}
 		
 		
@@ -2286,7 +2286,7 @@ p.nominalBounds = new cjs.Rectangle(-106.2,-97.5,212.6,195.1);
 		this.atras.addEventListener("click", fl_ClickToGoToWebPage_6);
 		
 		function fl_ClickToGoToWebPage_6() {
-			window.open("pantalla de seleccion.html", "_self");
+			window.open("./pantalla de seleccion.html", "_self");
 		}
 	}
 
