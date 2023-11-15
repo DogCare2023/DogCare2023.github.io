@@ -1619,7 +1619,7 @@ p.nominalBounds = new cjs.Rectangle(-201,-67.4,402.1,134.9);
 	this.button_4 = new lib.minijuego();
 	this.button_4.name = "button_4";
 	this.button_4.parent = this;
-	this.button_4.setTransform(1661.2,922.3);
+	this.button_4.setTransform(1681.9,782.1,0.977,0.977);
 	new cjs.ButtonHelper(this.button_4, 0, 1, 1);
 
 	this.timeline.addTween(cjs.Tween.get(this.button_4).wait(700));
@@ -3032,19 +3032,19 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-57.9,116.3,115.9);
 	this.button_2 = new lib.BOTONDEVOLVER();
 	this.button_2.name = "button_2";
 	this.button_2.parent = this;
-	this.button_2.setTransform(167.8,167.7);
+	this.button_2.setTransform(1681.8,970.5);
 	new cjs.ButtonHelper(this.button_2, 0, 1, 1);
 
 	this.button_5 = new lib.BOTONA();
 	this.button_5.name = "button_5";
 	this.button_5.parent = this;
-	this.button_5.setTransform(1655.1,695.8);
+	this.button_5.setTransform(1677.9,583.4,0.977,0.977,0,0,0,0,0.1);
 	new cjs.ButtonHelper(this.button_5, 0, 1, 1);
 
 	this.button_3 = new lib.BOTONP();
 	this.button_3.name = "button_3";
 	this.button_3.parent = this;
-	this.button_3.setTransform(1655.1,441.4);
+	this.button_3.setTransform(1677.9,334.8,0.977,0.977);
 	new cjs.ButtonHelper(this.button_3, 0, 1, 1);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button_3},{t:this.button_5},{t:this.button_2}]}).wait(700));
@@ -3059,7 +3059,7 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-57.9,116.3,115.9);
 	this.button_1 = new lib.BOTONV();
 	this.button_1.name = "button_1";
 	this.button_1.parent = this;
-	this.button_1.setTransform(1647.6,193.3);
+	this.button_1.setTransform(1670.6,92.6,0.977,0.977,0,0,0,0.1,0.1);
 	new cjs.ButtonHelper(this.button_1, 0, 1, 1);
 
 	this.timeline.addTween(cjs.Tween.get(this.button_1).wait(700));
@@ -3468,7 +3468,7 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-57.9,116.3,115.9);
 	this.botones = new lib.Escena_1_botones();
 	this.botones.name = "botones";
 	this.botones.parent = this;
-	this.botones.setTransform(1661.2,922.3,1,1,0,0,0,1661.2,922.3);
+	this.botones.setTransform(1681.9,782.1,1,1,0,0,0,1681.9,782.1);
 	this.botones.depth = 0;
 	this.botones.isAttachedToCamera = 0
 	this.botones.isAttachedToMask = 0
@@ -3496,7 +3496,7 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-57.9,116.3,115.9);
 	this.botones_1 = new lib.Escena_1_botones_1();
 	this.botones_1.name = "botones_1";
 	this.botones_1.parent = this;
-	this.botones_1.setTransform(1647.7,193.3,1,1,0,0,0,1647.7,193.3);
+	this.botones_1.setTransform(1670.5,92.5,1,1,0,0,0,1670.5,92.5);
 	this.botones_1.depth = 0;
 	this.botones_1.isAttachedToCamera = 0
 	this.botones_1.isAttachedToMask = 0
@@ -3510,7 +3510,7 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-57.9,116.3,115.9);
 	this.botones_2 = new lib.Escena_1_botones_2();
 	this.botones_2.name = "botones_2";
 	this.botones_2.parent = this;
-	this.botones_2.setTransform(976.4,430.4,1,1,0,0,0,976.4,430.4);
+	this.botones_2.setTransform(1666.7,655.3,1,1,0,0,0,1666.7,655.3);
 	this.botones_2.depth = 0;
 	this.botones_2.isAttachedToCamera = 0
 	this.botones_2.isAttachedToMask = 0
@@ -3561,7 +3561,7 @@ p.nominalBounds = new cjs.Rectangle(-63.5,-57.9,116.3,115.9);
 	this.timeline.addTween(cjs.Tween.get(this.CIELO).wait(700));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-356.7,539.5,3271.6,1118.5);
+p.nominalBounds = new cjs.Rectangle(-356.7,526.5,3271.6,1131.5);
 // library properties:
 lib.properties = {
 	id: '1D78A74FEE2D2A46AD8B43DAAA91FD5D',
@@ -3571,7 +3571,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/pantalla dieta saludable_atlas_.png?1699918381760", id:"pantalla dieta saludable_atlas_"}
+		{src:"images/pantalla dieta saludable_atlas_.png?1699917463183", id:"pantalla dieta saludable_atlas_"}
 	],
 	preloads: []
 };
